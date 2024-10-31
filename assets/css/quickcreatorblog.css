@@ -1,0 +1,62 @@
+.quickcreator-wraper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.quickcreator-wraper__logo img {
+  width: 36px;
+  padding-top: 2px;
+  margin-top: 1rem;
+}
+
+.quickcreator-text--secondary {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgb(55, 65, 81);
+  max-width: 56rem;
+}
+
+.quickcreator-connection-box p.quickcreator-connection-box__connection-details {
+  margin-left: 26px;
+}
+.quickcreator-connection-box__connection-info svg {
+  vertical-align: top;
+}
+.quickcreator-connection-box--connected {
+  margin-top: 24px;
+}
+.quickcreator-connection-box--connected
+  .quickcreator-connection-box__connection-info {
+  color: #338f61;
+}
+.quickcreator-connection-box--not-connected {
+  margin-top: 24px;
+}
+.quickcreator-connection-box--not-connected
+  .quickcreator-connection-box__connection-info {
+  color: #e53e3e;
+}
+.quickcreator-connection-box__actions {
+  margin: 0px;
+  margin-top: 24px;
+  margin-left: 26px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.quickcreator-button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 100px;
+  font-weight: 700;
+}
+.quickcreator-button--primary {
+  color: #fff;
+  background-color: #5a4bde;
+}
+.quickcreator-admin-footer {
+  margin-top: 8px;
+}

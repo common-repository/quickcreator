@@ -1,0 +1,11 @@
+.quickcreator_products img {
+  aspect-ratio: 1;
+}
+
+.quickcreator_featured_products img {
+  aspect-ratio: 1;
+}
+
+.page.has-post-thumbnail .entry-header {
+  margin-bottom: 0;
+}
